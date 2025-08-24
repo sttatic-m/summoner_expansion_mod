@@ -1,0 +1,3 @@
+displayName = Summoner Expansion
+author = Sttatic
+version = 0.1
