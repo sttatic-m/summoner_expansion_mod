@@ -1,2 +1,8 @@
-# This file will automatically update with entries for new content after a build and reload.
+Items: {
+	StarWhip: {
+		DisplayName: Star Whip
+		Tooltip: Causes stars to rain from the sky
+	}
+}
 
+Projectiles.StarWhipProjectile.DisplayName: Star Whip Projectile
