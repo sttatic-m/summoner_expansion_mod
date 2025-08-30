@@ -1,5 +1,6 @@
 
 
+using SummonerExpansion.Content.Projectiles.Minions;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -15,10 +16,10 @@ namespace SummonerExpansion.Content.Buffs
 
         public override void Update(Player player, ref int buffIndex)
         {
-            /*if (player.ownedProjectileCounts[ModContent.ProjectileType<>()] > 0)
+            if (player.ownedProjectileCounts[ModContent.ProjectileType<HarpyMinion>()] > 0)
             {
                 player.buffTime[buffIndex] = 18000;
-            }*/
+            }
             else
             {
                 player.DelBuff(buffIndex);

@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using SummonerExpansion.Content.Buffs;
+using SummonerExpansion.Content.Projectiles.Minions;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
@@ -34,7 +35,7 @@ namespace SummonerExpansion.Content.Items.Weapons
             Item.noMelee = true;
             Item.DamageType = DamageClass.Summon;
             Item.buffType = ModContent.BuffType<HarpyMinionBuff>();
-            Item.shoot = ModContent.ProjectileType<>();
+            Item.shoot = ModContent.ProjectileType<HarpyMinion>();
         }
 
         public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback)

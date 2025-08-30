@@ -3,6 +3,21 @@ Items: {
 		DisplayName: Star Whip
 		Tooltip: Causes stars to rain from the sky
 	}
+
+	HarpyStaff: {
+		DisplayName: Harpy Staff
+		Tooltip: ""
+	}
 }
 
-Projectiles.StarWhipProjectile.DisplayName: Star Whip Projectile
+Projectiles: {
+	StarWhipProjectile.DisplayName: Star Whip Projectile
+	HarpyMinion.DisplayName: Harpy Minion
+}
+
+Buffs: {
+	HarpyMinionBuff: {
+		DisplayName: Harpy Minion Buff
+		Description: Mods.SummonerExpansion.Buffs.HarpyMinionBuff.Description
+	}
+}
