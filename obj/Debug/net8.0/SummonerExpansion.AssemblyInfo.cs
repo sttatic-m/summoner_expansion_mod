@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SummonerExpansion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09b9688263077d0947532b666ced045cf5b29383")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b15c598e3b86102f3cbeda1112885dc8b2c4a65e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SummonerExpansion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SummonerExpansion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

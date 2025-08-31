@@ -22,12 +22,12 @@ namespace SummonerExpansion.Content.Items.Weapons
         {
             Item.damage = 14;
             Item.knockBack = 2f;
-            Item.mana = 10; // mana cost
+            Item.mana = 10;
             Item.width = 32;
             Item.height = 32;
             Item.useTime = 30;
             Item.useAnimation = 30;
-            Item.useStyle = ItemUseStyleID.Swing; // how the player's arm moves when using the item
+            Item.useStyle = ItemUseStyleID.Swing;
             Item.value = Terraria.Item.sellPrice(silver: 74);
             Item.rare = ItemRarityID.Orange;
             Item.UseSound = SoundID.Item44;
